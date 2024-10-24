@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: red;
+  }
+  
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+  }
+  
+  .box {
+    height: 200px;
+    width: 150px;
+    margin-right: 100px;
+    background-color: red;
+    position: relative;
+  }
+  .box p {
+    margin-top: 90px;
+    font-size: large;
+    color: white;
+  }
+  
+  .door {
+    background-color: black;
+    border-radius: 20px;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    transition: 3s ease;
+  }
+
+  #Won{
+    display: none;
+  }
+  
